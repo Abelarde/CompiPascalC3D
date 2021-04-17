@@ -67,6 +67,7 @@ namespace CompiPascalC3D
             this.Save.TabIndex = 1;
             this.Save.Text = "Save";
             this.Save.UseVisualStyleBackColor = true;
+            this.Save.Click += new System.EventHandler(this.Save_Click);
             // 
             // Load
             // 
@@ -76,6 +77,7 @@ namespace CompiPascalC3D
             this.Load.TabIndex = 0;
             this.Load.Text = "Load";
             this.Load.UseVisualStyleBackColor = true;
+            this.Load.Click += new System.EventHandler(this.Load_Click);
             // 
             // Run
             // 
@@ -85,6 +87,7 @@ namespace CompiPascalC3D
             this.Run.TabIndex = 1;
             this.Run.Text = "Run";
             this.Run.UseVisualStyleBackColor = true;
+            this.Run.Click += new System.EventHandler(this.Run_Click);
             // 
             // Optimize
             // 
@@ -94,6 +97,7 @@ namespace CompiPascalC3D
             this.Optimize.TabIndex = 0;
             this.Optimize.Text = "Optimize";
             this.Optimize.UseVisualStyleBackColor = true;
+            this.Optimize.Click += new System.EventHandler(this.Optimize_Click);
             // 
             // openFileDialog1
             // 
@@ -166,6 +170,7 @@ namespace CompiPascalC3D
             this.ClearConsole.TabIndex = 6;
             this.ClearConsole.Text = "Clear";
             this.ClearConsole.UseVisualStyleBackColor = true;
+            this.ClearConsole.Click += new System.EventHandler(this.ClearConsole_Click);
             // 
             // ReportTS
             // 
@@ -175,6 +180,7 @@ namespace CompiPascalC3D
             this.ReportTS.TabIndex = 0;
             this.ReportTS.Text = "TS";
             this.ReportTS.UseVisualStyleBackColor = true;
+            this.ReportTS.Click += new System.EventHandler(this.ReportTS_Click);
             // 
             // groupBox3
             // 

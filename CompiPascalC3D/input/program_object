@@ -1,0 +1,77 @@
+program Hola;
+
+coNst
+VELOCITY_LIGHT = 3.0;
+PIE = 3.141592;
+
+type
+   Rectangle = object
+//solo se puede declarar
+   var 
+        taxrate, net_income: real;
+        choice, isready: boolean;
+        //fees : array[1..1] of intege; //esto?
+end;
+
+type
+days, age = integer;
+yes, true = boolean;
+name, city = string;
+
+var
+age, weekdays : Rectangle;
+taxrate, net_income: real;
+
+var
+x_1,x_2,x_3: integer := 111; //error recuperado
+y: real:= 3.9;
+windy: boolean := true;
+grade: char := 'C';
+cadena: string := 'hola bicho soy una cadena';
+
+begin
+
+end.
+
+
+
+//===================================
+program accesos;
+
+type
+curso = object
+var codigo:integer;
+var nombre:string;
+var nota:integer;
+var creditos:integer;
+end;
+
+type
+curso2 = object
+var codigo:integer;
+var nombre:string;
+var nota:integer;
+var var_curso:curso;
+end;
+
+var variableObjecto : curso;
+var var_curso2:curso2;
+var aaa:curso;
+
+begin
+variableObjecto.codigo := 10;
+writeln(variableObjecto.codigo);
+writeln(aaa.codigo);
+//var_curso2.var_curso.nota := 7777;
+//writeln(var_curso2.var_curso.nota);
+end.
+
+
+program hola;
+var a : integer;
+var b : integer := 10;
+begin
+end.
+
+
+

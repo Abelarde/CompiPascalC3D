@@ -1,0 +1,117 @@
+program Hello;
+
+type
+days = integer;
+yes = boolean;
+name = string;
+fees = real;
+arreglo = array [1..10] of integer;
+arreglo2 = array [1..10, 1..3] of integer;
+arreglo3 = array [-5..5] of integer;
+matriz = array[0..2] of arreglo;
+
+type
+   Rectangle = object
+   var //solo se puede declarar
+        taxrate, net_income: real;
+        choice, isready: boolean;
+        fees: arreglo; //esto?
+end;
+
+var
+weekdays, holidays : days;
+choice: yes;
+student_name, emp_name : name;
+capital: days;
+cost: fees;
+arr: arreglo;
+arr2: arreglo2;
+arr3: arreglo3;
+mat: matriz;
+rec: Rectangle;
+
+begin
+  writeln (mat[0,0]); //mat[0][0]
+end.
+
+program Hello;
+
+type
+arreglo = array [1..10] of integer;
+arreglo2 = array [1..10, 1..3, 1..8] of integer;
+arreglo3 = array [-5..5] of integer;
+matriz = array[0..2] of arreglo;
+
+begin
+end.
+
+program Hello;
+
+type
+arreglo2 = array [1..10, 1..3, 1..8] of integer;
+begin
+arreglo2[1,2,1]:= 7777;
+writeln(arreglo2[1,2,1]);
+end.
+
+
+//no me tira el 0 en una dimension
+program Hello;
+
+type
+arreglo2 = array [1..10] of integer;
+begin
+arreglo2[5]:= 999;
+writeln(arreglo2[6]);
+end.
+
+
+program PruebaDeFactorial;
+ 
+ var numero: integer;
+
+ function factorial( num : integer) : integer;
+ begin
+   if num = 1 then
+	begin
+     	factorial() := 1;
+	end
+   else
+	begin
+     	factorial() := num * factorial( num-1 );  
+	end
+ end;
+
+ begin
+   numero := 3;
+   writeln( 'Su factorial es ', factorial(numero));
+ end.
+
+
+program PruebaDeFactorial;
+ 
+ var numero: integer;
+
+ function factorial( num : integer) : integer;
+ begin
+   writeln('adentro de la funcion: ',num);   
+   if num = 1 then
+	begin
+                   writeln('en el if: ',num);
+     	factorial() := 1;
+                   writeln('if: todavia lo imprimo');  
+	end
+   else
+	begin
+                   writeln('en el else: ',num);
+     	factorial() := num * factorial( num-1 );  
+                   writeln('else: todavia lo imprimo');  
+	end
+ end;
+
+ begin
+   numero := 3;
+   writeln(numero);
+   writeln( 'Su factorial es ', factorial(numero));
+   writeln(numero);
+ end.

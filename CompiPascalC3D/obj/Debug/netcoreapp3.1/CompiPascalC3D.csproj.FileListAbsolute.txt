@@ -13,3 +13,5 @@ C:\Users\eduab\Desktop\Compiladores 2\CompiPascalV2\CompiPascalC3D\CompiPascalC3
 C:\Users\eduab\Desktop\Compiladores 2\CompiPascalV2\CompiPascalC3D\CompiPascalC3D\obj\Debug\netcoreapp3.1\CompiPascalC3D.dll
 C:\Users\eduab\Desktop\Compiladores 2\CompiPascalV2\CompiPascalC3D\CompiPascalC3D\obj\Debug\netcoreapp3.1\CompiPascalC3D.pdb
 C:\Users\eduab\Desktop\Compiladores 2\CompiPascalV2\CompiPascalC3D\CompiPascalC3D\obj\Debug\netcoreapp3.1\CompiPascalC3D.genruntimeconfig.cache
+C:\Users\eduab\Desktop\Compiladores 2\CompiPascalV2\CompiPascalC3D\CompiPascalC3D\bin\Debug\netcoreapp3.1\Irony.dll
+C:\Users\eduab\Desktop\Compiladores 2\CompiPascalV2\CompiPascalC3D\CompiPascalC3D\obj\Debug\netcoreapp3.1\CompiPascalC3D.csproj.CopyComplete
